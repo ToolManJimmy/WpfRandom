@@ -40,5 +40,10 @@ namespace WpfRandom
                 txbScan.Text = "";
             }
         }
+
+        private void btnDeleteList_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

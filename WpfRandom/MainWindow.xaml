@@ -13,7 +13,7 @@
         <Button x:Name="btnClearRandom" Content="Button" HorizontalAlignment="Left" Margin="291,360,0,0" VerticalAlignment="Top" Width="75"/>
         <TextBox x:Name="txbScan" HorizontalAlignment="Left" Height="23" Margin="544,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnInsertList" Content="Button" HorizontalAlignment="Left" Margin="576,157,0,0" VerticalAlignment="Top" Width="75" Click="btnInsertList_Click"/>
-        <Button x:Name="btnDeleteList" Content="Button" HorizontalAlignment="Left" Margin="576,207,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnDeleteList" Content="Button" HorizontalAlignment="Left" Margin="576,207,0,0" VerticalAlignment="Top" Width="75" Click="btnDeleteList_Click"/>
         <Button x:Name="btnClearList" Content="Button" HorizontalAlignment="Left" Margin="576,252,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
