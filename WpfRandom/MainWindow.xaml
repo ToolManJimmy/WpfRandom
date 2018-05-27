@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfRandom.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfRandom"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="700">
+    <Grid>
+        <Label x:Name="labList" Content="" HorizontalAlignment="Left" Margin="42,47,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labRandom" Content="" HorizontalAlignment="Left" Margin="270,134,0,0" VerticalAlignment="Top" Height="73" Width="121"/>
+        <Button x:Name="btnRandom" Content="Button" HorizontalAlignment="Left" Margin="291,293,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnClearRandom" Content="Button" HorizontalAlignment="Left" Margin="291,360,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txbScan" HorizontalAlignment="Left" Height="23" Margin="544,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnInsertList" Content="Button" HorizontalAlignment="Left" Margin="576,157,0,0" VerticalAlignment="Top" Width="75" Click="btnInsertList_Click"/>
+        <Button x:Name="btnDeleteList" Content="Button" HorizontalAlignment="Left" Margin="576,207,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnClearList" Content="Button" HorizontalAlignment="Left" Margin="576,252,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
